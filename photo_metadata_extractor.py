@@ -256,7 +256,7 @@ class PhotoMetadata:
         return text
     
     def get_csv_informations(self) -> Path:
-        with open('document/informations.csv', 'w', newline='') as csvfile:
+        with open(f"document/{self.file.split('.')[0]}.csv", 'w', newline='') as csvfile:
             fieldnames = ['Ключи', 'Значения']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
@@ -265,12 +265,12 @@ class PhotoMetadata:
                 k_str = str(key).replace('_', ' ').title().ljust(30, " ")
                 value_str = str(value).title()
                 writer.writerow({'Ключи': k_str, 'Значения': value_str})
-        return "document/informations.csv"
+        return f"document/{self.file.split('.')[0]}.csv"
 
     def get_text_file(self) -> Path:
-        with open('document/informations.txt', 'w') as text_file:
+        with open(f"document/{self.file.split('.')[0]}.txt", 'w') as text_file:
             text_file.write(self.informations_text())
-        return "document/informations.txt"
+        return f"document/{self.file.split('.')[0]}.txt"
 
     def __str__(self) -> str:
         return f"PhotoMetadata('{self.file}')\nat: {self.__dir__()}"
@@ -291,8 +291,8 @@ def main():
     
     # print(photo.informations())
     # print(photo.informations_text())
-    # print(photo.get_csv_informations())
-    # print(photo.get_text_file())
+    print(photo.get_csv_informations())
+    print(photo.get_text_file())
 
 
 if __name__ == "__main__":

@@ -1,0 +1,54 @@
+Ключи,Значения
+Latitude Direction            ,N
+Latitude                      ,43.25471388888889
+Longitude Direction           ,E
+Longitude                     ,77.4841
+Altitude                      ,B'\X00'
+Altitude Accuracy             ,1717.0059726962456
+Time Fixed                    ,None
+Quality Code                  ,K
+Accuracy                      ,0.3743570699099434
+Orientation1                  ,T
+Speed1                        ,221.44232182218957
+Orientation2                  ,T
+Speed2                        ,221.44232182218957
+Capture Date                  ,"['2023', '05', '27'].None.None"
+Magnetic Declination          ,4.507320474087845
+Device Model                  ,Iphone 11 Pro Max
+Model                         ,Iphone 11 Pro Max
+Firmware Version              ,15.6
+Shutter Speed                 ,11.294943950881436
+Camera Manufacturer           ,Apple
+Lens Info                     ,Iphone 11 Pro Max Back Triple Camera 4.25Mm F/1.8
+Image Width                   ,None
+Image Height                  ,None
+Orientation                   ,2
+Exif Offset                   ,229
+Manufacturer                  ,Apple
+Compression                   ,0
+Date And Time                 ,2023:05:27 14:06:01
+X Resolution                  ,72.0
+Y Resolution                  ,72.0
+Exif Version                  ,B'0232'
+Aperture Value                ,1.6959938128383605
+Date And Time Original        ,2023:05:27 14:06:01
+Date And Time Digitized       ,2023:05:27 14:06:01
+Iso Speed Rating              ,9.843780385039217
+Brightness Value              ,0.0
+Exposure Mode                 ,0
+Color Space                   ,65535
+Flash                         ,16
+Focal Length                  ,4.25
+Pixel X Dimension             ,4032
+Pixel Y Dimension             ,3024
+Contrast                      ,26
+Offset Time                   ,+06:00
+Offset Time Original          ,719
+Offset Time Digitized         ,719
+Exposure Time                 ,0.0003979307600477517
+F Number                      ,1.8
+Scene Type                    ,B'\X01'
+Exposure Program              ,2
+Iso Rating                    ,32
+Custom Rendered               ,0
+Exposure Bias                 ,"(1.5399999618512084, 6.0, 1.8, 2.4)"
