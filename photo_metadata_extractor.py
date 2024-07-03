@@ -50,7 +50,6 @@ import piexif
 from PIL import Image
 from pathlib import Path
 from geopy import Nominatim
-from pprint import pprint
 
 
 def create_folders_if_not_exists():
